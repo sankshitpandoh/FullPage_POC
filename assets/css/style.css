@@ -1,0 +1,61 @@
+/* header starts here */
+.header-main{
+    background-color: #fff0f5;
+    color: #000;
+    z-index: 999;
+    position: relative;
+}
+/* header ends here */
+
+.first-section{
+    color: white;
+}
+.second-section .slide1 h1{
+    color: #30475E;
+}
+.second-section .slide2{
+    background-color: #5F020D ;
+    color: #fff;
+}
+.fp-slidesNav.fp-bottom{
+    text-align: center;
+    margin-bottom: 50px !important;
+}
+.fp-slidesNav ul li a.active span,
+.fp-slidesNav ul li:hover a.active span {
+    background: darkblue;
+} 
+.fp-slidesNav ul li a span{
+    background: #000;
+}
+.fp-controlArrow.fp-prev{
+    border-color: transparent #543864 transparent transparent ;
+}
+.fp-controlArrow.fp-next{
+    border-color: transparent transparent transparent #000;
+}
+.second-section .slide3{
+    background-color: #FC6C7C ;
+    color: #5F020D;
+}
+.second-section .slide4{
+    background-color: #FEC401 ;
+    color: #000;
+}
+
+#fp-nav ul li a span{
+    background: white;
+    width: 8px;
+    height: 8px;
+    margin: -4px 0 0 -4px;
+}
+
+#fp-nav ul li a.active span,
+#fp-nav ul li:hover a.active span{
+    width: 16px;
+    height: 16px;
+    margin: -8px 0 0 -8px;
+    background: transparent;
+    box-sizing: border-box;
+    border: 1px solid #000;
+}
