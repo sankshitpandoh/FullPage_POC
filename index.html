@@ -21,12 +21,12 @@
                     <div class="logo">
                         LOGO
                     </div>
-                    <ul class="header-nav">
-                        <li class="mx-4">HOME</li>
-                        <li class="mx-4">Link1</li>
-                        <li class="mx-4">Link2</li>
-                        <li class="mx-4">Link3</li>
-                        <li class="mx-4">Link4</li>
+                    <ul class="header-nav" id="myMenu" >
+                        <li class="mx-4"><a href="#">HOME</a></li>
+                        <li class="mx-4"><a href="#">Link1</a></li>
+                        <li class="mx-4"><a href="#">Link2</a></li>
+                        <li class="mx-4"><a href="#">Link3</a></li>
+                        <li class="mx-4"><a href="#">Link4</a></li>
                     </ul>
                 </div>
             </div>
@@ -43,7 +43,7 @@
                     <p class="text-center">Second slide RIGHT ==> </p>
                     <p class="text-center">The slides nav can also be customized </p>
                     <p class="text-center"> || </p>
-                    <p class="text-center">\/</p>
+                    <p class="text-center"> \/ </p>
                 </div>
                 <div class="slide slide2">
                     <h1 class="my-3 mx-auto text-center">This is Second Slide</h1>
@@ -59,7 +59,8 @@
                 </div>
             </section>
 
-            <section class="section third-section py-3">
+            <section class="section third-section fp-auto-height py-3">
+                <!-- The fp-auto-height allows us to remove the full height restriction // takes height according to content  -->
                 <h2 class="text-center mb-3 display-2">This section shows if content is more than height, how a scroll bar is called</h2>
                 <figure class="d-flex justify-content-center mb-5">
                     <img src="assets/images/mrRobo.png" alt="MR ROBOT" />
@@ -74,13 +75,21 @@
                 <p class="display-4 text-center mb-2"> " We’re all living in each other’s paranoia. " </p>
             </section>
 
-            <section class="section fourth-section"></section>
-            <section class="section fifth-section"></section>
+            <section class="section fourth-section">
+                <div class="fp-bg"></div>
+                <h1 class="text-center display-2">We got a parallax here!</h1>
+            </section>
+            <section class="section fifth-section">
+                <div class="fp-bg"></div>
+                <h1 class="text-center display-2">And here!</h1>
+            </section>
             <section class="section sixth-section"></section>
 
         </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
         <script src="assets/js/scrolloverflow.min.js"></script>
-        <script src="assets/js/fullpage.js"></script>
+        <script src="assets/js/fullpage.parallax.min.js"></script>
+        <script src="assets/js/fullpage.extensions.min.js"></script>
         <script src="assets/js/main.js"></script>
     </body>
-</html>
+</html> 

@@ -59,3 +59,16 @@
     box-sizing: border-box;
     border: 1px solid #000;
 }
+.fourth-section, .fifth-section h1{
+    color: white;
+}
+.fourth-section .fp-bg{
+    background-image: url('../images/paral.jpg');
+    background-size: cover;
+    background-position: center 80%;
+}
+.fifth-section .fp-bg{
+    background-image: url('../images/paral2.jpg');
+    background-size: cover;
+    background-position: center 80%;   
+}
