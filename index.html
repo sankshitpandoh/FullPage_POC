@@ -21,12 +21,14 @@
                     <div class="logo">
                         LOGO
                     </div>
+                <p class="text-center pl-5">Click here to jump to specific sections ====></p>
                     <ul class="header-nav" id="myMenu" >
-                        <li class="mx-4"><a href="#">HOME</a></li>
-                        <li class="mx-4"><a href="#">Link1</a></li>
-                        <li class="mx-4"><a href="#">Link2</a></li>
-                        <li class="mx-4"><a href="#">Link3</a></li>
-                        <li class="mx-4"><a href="#">Link4</a></li>
+                        <li data-menuanchor="firstSection" class="mx-2 active"><a href="#firstSection">HOME</a></li>
+                        <li data-menuanchor="secondSection" class="mx-2"><a href="#secondSection">Section2</a></li>
+                        <li data-menuanchor="thirdSection" class="mx-2"><a href="#thirdSection">Section3</a></li>
+                        <li data-menuanchor="fourthSection" class="mx-2"><a href="#fourthSection">Section4</a></li>
+                        <li data-menuanchor="fifthSection" class="mx-2"><a href="#fifthSection">Section5</a></li>
+                        <li data-menuanchor="sixthSection" class="mx-2"><a href="#sixthSection">Section6</a></li>
                     </ul>
                 </div>
             </div>
@@ -59,7 +61,7 @@
                 </div>
             </section>
 
-            <section class="section third-section fp-auto-height py-3">
+            <section class="section third-section fp-auto-height py-3 ">
                 <!-- The fp-auto-height allows us to remove the full height restriction // takes height according to content  -->
                 <h2 class="text-center mb-3 display-2">This section shows if content is more than height, how a scroll bar is called</h2>
                 <figure class="d-flex justify-content-center mb-5">
@@ -83,10 +85,16 @@
                 <div class="fp-bg"></div>
                 <h1 class="text-center display-2">And here!</h1>
             </section>
-            <section class="section sixth-section"></section>
+            <section class="section sixth-section">
+                <h3 class="text-center px-5">To get drag to move functionality, Drag and move extension is required.</h3>
+                <p class="text-center px-5">Couldn't make a patch to get it working without it yet!</p>
+                <br>
+                <h3 class="text-center px-5">To get the functionality to scroll through slides before coming down to the next section the main fullpage lib file needs to be edited</h3>
+                <p class="text-center px-5">Or the functionalitycould be attained by Scroll Horizontal Extension</p>
+            </section>
 
         </div>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> -->
         <script src="assets/js/scrolloverflow.min.js"></script>
         <script src="assets/js/fullpage.parallax.min.js"></script>
         <script src="assets/js/fullpage.extensions.min.js"></script>

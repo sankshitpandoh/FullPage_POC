@@ -21,6 +21,9 @@ new fullpage('#fullpage', {
     },
 });
 
+
+// To get drag to slide functionality
+
 // let clicked = false, clickY;
 // $(document).on({
 //     'mousemove': function(e) {
